@@ -1,0 +1,285 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans' ,sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color: #9AC5F4;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.profile {
+    width: 100%;
+    float: left;
+    color: darkgreen;
+    background-image: url("../images/kuygas.jpg");
+    background-size: cover;
+}
+
+.wrapper_profile {
+    background-color: rgba(127, 255, 212, 0.7);
+    padding: 30px 20px;
+    float: left;
+    width: 100%;
+}
+
+.photo_name {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    margin: 0 25%;
+    background-color: rgba(0, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.photo_name img {
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    float: left;
+}
+
+.photo_name h1 {
+    padding: 40px 50px;
+    float: left;
+}
+
+.detail_profile {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.detail_profile h3 {
+margin-block-end: 2px;
+}
+
+.detail_profile p {
+    margin-block-start: 2px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.Hobbies {
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 5px;
+    float: left;
+}
+.Hobbies h3 {
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 0;
+}
+.flex_box  {
+    display: flex;
+}
+.flex_box li {
+    flex: auto;
+    list-style: none;
+    padding: 30px;
+}
+.flex_box img {
+    width: 100%;
+    padding: 5%;
+    border-radius: 20%;
+    background-color: aquamarine;
+}
+.flex_box h4 {
+    text-align: center;
+}
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.skills_experience {
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 5px;
+    float: left;
+}
+
+.skills {
+    float: left;
+    text-align: right;
+    width: 50%;
+    border-right: blue;
+    border-style: none solid none none;
+    padding: 8px;
+}
+
+.experiences {
+    float: left;
+    width: 45%;
+    padding: 10px;
+}
+
+.Skills h3 {
+    float: left;
+    width:100%;
+    text-align: right;
+    padding: 20px 0 20px 20px;
+    margin: 0;
+}
+
+.skill {
+    float: left;
+}
+
+.skill img {
+    float: right;
+    width: 50px;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.skill_desc {
+    float: right;
+    width: 70%;
+}
+
+.skill_desc h4 {
+    float: right;
+    text-align: right;
+    margin: 20px;
+}
+.skill_desc p {
+    float: right;
+    text-align: right;
+    margin: 0;
+}
+
+.Experiences h3 {
+float: left;
+width:100%;
+text-align: left;
+padding: 20px 0px 20px 20px;
+margin: 0;
+}
+
+.experiences h4 {
+float: left;
+text-align: left;
+margin: 10px;
+width: 100%;
+}
+
+.experiences p {
+float: left;
+text-align: left;
+margin: 10px;
+width: 100%;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.educations{
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 5px;
+    float: left;
+}
+.educations{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 0;
+}
+.container{
+    margin: 20px auto;
+    width: 40%;
+}
+.edu_left{
+    float: left;
+    width: 100%;
+    border-color: darkgreen;
+    border-style: solid none solid solid;
+    padding: 10px;
+    text-align: left;
+}
+.edu_right{
+    float: left;
+    width: 100%;
+    border-color: darkgreen;
+    border-style: solid none solid solid;
+    padding: 10px;
+    text-align: right;
+}
+.edu_left{
+    float: left;
+    width: 100%;
+    border-color: darkgreen;
+    border-style: solid none solid solid;
+    padding: 10px;
+    text-align: left;
+}
